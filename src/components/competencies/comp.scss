@@ -1,0 +1,223 @@
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+  margin-top: 3em;
+}
+
+.competenciesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  @media screen and (max-width: 450px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+}
+
+.groupCard {
+  background: #f7fcfc;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 450px) {
+    max-width: 95vw;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.groupTitle {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+  margin-top: 0;
+  color: #222;
+  @media screen and (max-width: 450px) {
+    font-size: 1.5em;
+    text-align: left;
+  }
+}
+
+.groupDesc {
+  font-size: 1.15em;
+  color: #444;
+  margin-bottom: 1.2em;
+  text-align: left;
+  max-width: 500px;
+}
+
+.iconRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.iconCard {
+  background: #7ad1e6;
+  border-radius: 0.7em;
+  min-width: 200px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10), 0 0 20px 4px rgba(122, 209, 230, 0.5);
+    cursor: not-allowed;
+  }
+}
+
+.wideRow .iconCard {
+  min-width: 300px;
+}
+
+
+.iconLabel {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 0.1em;
+}
+
+
+//Card Colors
+.iconCard.React {
+    background: #61dafb !important; // React blue
+
+}
+.iconCard.Next {
+  background: #000 !important; // Next black
+}
+.iconCard.Postgres {
+  background: #336791 !important; // Postgres blue
+}
+.iconCard.SQLite{
+    background: #003b57 !important; // SQLite blue
+}
+.iconCard.JS {
+  background: #f7e018 !important; // JS yellow
+}
+
+.iconCard.TS {
+  background: #3178c6 !important; // TS blue
+}
+
+.iconCard.HTML {
+  background: #e34c26 !important; // HTML orange
+}
+
+.iconCard.CSS {
+  background: #264de4 !important; // CSS blue
+}
+.iconCard.Sass {
+  background: #cc6699 !important; // Sass pink
+}
+.iconCard.TailWind {
+  background: #38bdf8 !important; // Tailwind blue
+}
+.iconCard.Vite {
+  background: #646cff !important; // Vite blue
+}
+.iconCard.Node{
+    background: #83cd29 !important; // Node green
+}
+.iconCard.Docker{
+    background: #0db7ed !important; // Docker blue
+}
+.iconCard.Git{
+    background: #f34f29 !important; // Git orange
+}
+.iconCard.GitHub{
+    background: #171515 !important; // GitHub black
+}
+.iconCard.Ubuntu{
+    background: #e95420 !important; // Ubuntu orange
+}
+
+
+
+.React {
+  color: #fff;
+}
+
+.Next {
+  color: #fff;
+}
+
+.Postgres {
+  color: #fff;
+}
+
+.SQLite {
+  color: #fff;
+}
+
+.JS {
+  color: #fff;
+}
+
+.TS {
+  color: #fff;
+}
+
+.Rust {
+  color: #fff;
+}
+
+.Node {
+  color: #fff;
+}
+
+.Vite {
+  color: #fff;
+}
+
+.Docker {
+  color: #fff;
+}
+
+.HTML {
+  color: #fff;
+}
+
+.CSS {
+  color: #fff;
+}
+
+.Sass {
+  color: #fff;
+}
+
+.Git {
+  color: #fff;
+}
+
+.GitHub {
+  color: #fff;
+}
+
+.Ubuntu {
+  color: #fff;
+}
+
+.Contabo {
+  color: #fff;
+}

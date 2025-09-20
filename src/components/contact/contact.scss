@@ -1,0 +1,74 @@
+.contact-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  text-align: left;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact-quote {
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #0070f3;
+  font-size: 1.2rem;
+}
+
+.contact-details {
+  margin-top: 1rem;
+}
+
+.contact-details p {
+  display: flex;
+  align-items: center;
+  margin: 0.75rem 0;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.contact-details a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+  &:hover{
+    color: #005bb5;
+    text-decoration: underline;
+    cursor: alias;
+  }
+}
+
+.contact-icon {
+  margin-right: 0.75em;
+  color: #0070f3;
+  font-size: 1.4em;
+  transition: color 0.2s;
+}
+
+.contact-icon:hover {
+  color: #005bb5;
+}
+
+.contact-details strong {
+  margin-right: 0.5em;
+  font-weight: 500;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .contact-container {
+    padding: 1rem 0.5rem;
+    max-width: 95vw;
+  }
+  .contact-container h2 {
+    font-size: 1.5rem;
+  }
+}

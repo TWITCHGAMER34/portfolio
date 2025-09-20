@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    image: registry.sasvirtual.se/portfolio
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:9000:3000"
