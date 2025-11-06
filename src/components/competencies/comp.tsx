@@ -1,6 +1,6 @@
 import {
     SiJavascript, SiTypescript, SiReact, SiNodedotjs, SiHtml5, SiCss3, SiSqlite, SiMongodb, SiGithub, SiSass, SiGit,
-    SiNextdotjs, SiDocker, SiUbuntu, SiVite, SiTailwindcss,
+    SiNextdotjs, SiDocker, SiUbuntu, SiVite, SiSupabase, SiAwslambda, SiAmazonapigateway, SiAmazoncloudwatch, SiAmazondynamodb, SiServerless, SiAmazons3, SiAmazonwebservices,
 } from 'react-icons/si';
 import './comp.scss';
 
@@ -11,6 +11,7 @@ const groups = [
         items: [
             {name: 'React', icon: <SiReact size={40}/>, className: 'React'},
             {name: 'Next', icon: <SiNextdotjs size={40}/>, className: 'Next'},
+
         ],
     },
     {
@@ -19,6 +20,7 @@ const groups = [
         items: [
             {name: 'MongoDB', icon: <SiMongodb size={40}/>, className: 'Postgres'},
             {name: 'SQLite', icon: <SiSqlite size={40}/>, className: 'SQLite'},
+            {name: 'SupaBase', icon: <SiSupabase size={40}/>, className: 'SupaBase'},
         ],
     },
     {
@@ -30,7 +32,7 @@ const groups = [
             {name: 'HTML5', icon: <SiHtml5 size={40}/>, className: 'HTML'},
             {name: 'CSS3', icon: <SiCss3 size={40}/>, className: 'CSS'},
             {name: 'Sass', icon: <SiSass size={40}/>, className: 'Sass'},
-            {name: 'TailWind', icon: <SiTailwindcss size={40}/>, className: 'TailWind'},
+            {name: 'AWS Lambda', icon: <SiAwslambda size={40}/>, className: 'AWSLambda'},
         ],
     },
     {
@@ -43,6 +45,12 @@ const groups = [
             {name: 'Git', icon: <SiGit size={40}/>, className: 'Git'},
             {name: 'GitHub', icon: <SiGithub size={40}/>, className: 'GitHub'},
             {name: 'Ubuntu', icon: <SiUbuntu size={40}/>, className: 'Ubuntu'},
+            {name: 'API Gateway', icon: <SiAmazonapigateway size={40}/>, className: 'APIGateway'},
+            {name: 'CloudWatch', icon: <SiAmazoncloudwatch size={40}/>, className: 'CloudWatch'},
+            {name: 'DynamoDB', icon: <SiAmazondynamodb size={40}/>, className: 'DynamoDB'},
+            {name: 'Serverless', icon: <SiServerless size={40}/>, className: 'Serverless'},
+            {name: 'S3', icon: <SiAmazons3 size={40}/>, className: 'S3'},
+            {name: 'AWS', icon: <SiAmazonwebservices size={40}/>, className: 'AWS'},
         ],
     },
 ];
